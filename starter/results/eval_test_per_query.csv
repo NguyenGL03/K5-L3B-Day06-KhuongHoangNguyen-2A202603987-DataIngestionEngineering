@@ -1,0 +1,22 @@
+strategy,question_id,split,type,has_filter,hit_at_1,hit_at_3,first_hit_rank,page_hit_at_3,evidence_split_suspected,filter_compliant,top3_pages,top3_chunk_ids
+A,q04,test,dien_dat_lai,False,1,1,1,1,0,,6 6 5,qlsxks-l06-nhom2-p006-fixed500o50-000 qlsxks-l06-nhom2-p006-fixed500o50-001 qlsxks-l06-nhom2-p005-fixed500o50-000
+B,q04,test,dien_dat_lai,False,0,1,2,1,0,,6 6 5,qlsxks-l06-nhom2-p006-para800-001 qlsxks-l06-nhom2-p006-para800-000 qlsxks-l06-nhom2-p005-para800-000
+C,q04,test,dien_dat_lai,False,0,1,2,1,0,,6 6 5,qlsxks-l06-nhom2-p006-para800-001 qlsxks-l06-nhom2-p006-para800-000 qlsxks-l06-nhom2-p005-para800-000
+A,q14,test,so_lieu,False,1,1,1,1,0,,21 20 20,qlsxks-l06-nhom2-p021-fixed500o50-000 qlsxks-l06-nhom2-p020-fixed500o50-000 qlsxks-l06-nhom2-p020-fixed500o50-003
+B,q14,test,so_lieu,False,1,1,1,1,0,,21 20 20,qlsxks-l06-nhom2-p021-para800-000 qlsxks-l06-nhom2-p020-para800-000 qlsxks-l06-nhom2-p020-para800-002
+C,q14,test,so_lieu,False,1,1,1,1,0,,21 20 20,qlsxks-l06-nhom2-p021-para800-000 qlsxks-l06-nhom2-p020-para800-000 qlsxks-l06-nhom2-p020-para800-002
+A,q16,test,truc_tiep,False,1,1,1,1,0,,23 26 29,qlsxks-l06-nhom2-p023-fixed500o50-000 qlsxks-l06-nhom2-p026-fixed500o50-005 qlsxks-l06-nhom2-p029-fixed500o50-002
+B,q16,test,truc_tiep,False,1,1,1,1,0,,23 25 4,qlsxks-l06-nhom2-p023-para800-000 qlsxks-l06-nhom2-p025-para800-000 qlsxks-l06-nhom2-p004-para800-003
+C,q16,test,truc_tiep,False,1,1,1,1,0,,23 25 4,qlsxks-l06-nhom2-p023-para800-000 qlsxks-l06-nhom2-p025-para800-000 qlsxks-l06-nhom2-p004-para800-003
+A,q17,test,dien_dat_lai,False,1,1,1,1,0,,26 26 26,qlsxks-l06-nhom2-p026-fixed500o50-000 qlsxks-l06-nhom2-p026-fixed500o50-001 qlsxks-l06-nhom2-p026-fixed500o50-002
+B,q17,test,dien_dat_lai,False,1,1,1,1,0,,26 26 27,qlsxks-l06-nhom2-p026-para800-000 qlsxks-l06-nhom2-p026-para800-001 qlsxks-l06-nhom2-p027-para800-001
+C,q17,test,dien_dat_lai,False,1,1,1,1,0,,26 26 27,qlsxks-l06-nhom2-p026-para800-000 qlsxks-l06-nhom2-p026-para800-001 qlsxks-l06-nhom2-p027-para800-001
+A,q18,test,dieu_kien,False,0,1,2,1,0,,26 27 15,qlsxks-l06-nhom2-p026-fixed500o50-005 qlsxks-l06-nhom2-p027-fixed500o50-000 qlsxks-l06-nhom2-p015-fixed500o50-001
+B,q18,test,dieu_kien,False,1,1,1,1,0,,27 26 25,qlsxks-l06-nhom2-p027-para800-000 qlsxks-l06-nhom2-p026-para800-003 qlsxks-l06-nhom2-p025-para800-000
+C,q18,test,dieu_kien,False,1,1,1,1,0,,27 26 25,qlsxks-l06-nhom2-p027-para800-000 qlsxks-l06-nhom2-p026-para800-003 qlsxks-l06-nhom2-p025-para800-000
+A,q20,test,metadata_filter,True,0,0,,0,0,0,28 26 13,qlsxks-l06-nhom2-p028-fixed500o50-004 qlsxks-l06-nhom2-p026-fixed500o50-005 qlsxks-l06-nhom2-p013-fixed500o50-000
+B,q20,test,metadata_filter,True,0,0,,1,0,0,28 22 13,qlsxks-l06-nhom2-p028-para800-003 qlsxks-l06-nhom2-p022-para800-001 qlsxks-l06-nhom2-p013-para800-000
+C,q20,test,metadata_filter,True,0,0,,1,0,1,22 23 22,qlsxks-l06-nhom2-p022-para800-001 qlsxks-l06-nhom2-p023-para800-003 qlsxks-l06-nhom2-p022-para800-002
+A,q21,test,metadata_filter,True,0,0,,0,0,0,8 22 11,qlsxks-l06-nhom2-p008-fixed500o50-002 qlsxks-l06-nhom2-p022-fixed500o50-002 qlsxks-l06-nhom2-p011-fixed500o50-001
+B,q21,test,metadata_filter,True,0,0,,0,0,0,7 22 8,qlsxks-l06-nhom2-p007-para800-002 qlsxks-l06-nhom2-p022-para800-001 qlsxks-l06-nhom2-p008-para800-001
+C,q21,test,metadata_filter,True,0,0,,1,0,1,18 14 14,qlsxks-l06-nhom2-p018-para800-002 qlsxks-l06-nhom2-p014-para800-002 qlsxks-l06-nhom2-p014-para800-004

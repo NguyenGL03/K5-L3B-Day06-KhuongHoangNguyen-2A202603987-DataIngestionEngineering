@@ -1,0 +1,22 @@
+question_id,strategy,label,reason,labeler
+q04,A,2,"#1 (p6) có nguyên văn ""lợi nhuận sau thuế kế hoạch lên tới 161%"" và doanh thu 118%",claude-ai-draft + student-reviewed
+q04,B,2,"#2 (p6) có câu 118%/161%; #1 là bảng OCR kế hoạch (bổ sung số tuyệt đối)",claude-ai-draft + student-reviewed
+q04,C,2,"Giống B (không có filter)",claude-ai-draft + student-reviewed
+q14,A,2,"#1 (p21) có đủ mức đầu, mức cuối và mức giảm 2.328.603.102 VND",claude-ai-draft + student-reviewed
+q14,B,2,"#1 (p21) có đủ ba con số",claude-ai-draft + student-reviewed
+q14,C,2,"Giống B (không có filter)",claude-ai-draft + student-reviewed
+q16,A,2,"#1 (p23) có cơ quan kiểm định và QCVN 6/1:2010/BYT; #2, #3 nhiễu",claude-ai-draft + student-reviewed
+q16,B,2,"#1 (p23) có đủ cơ quan kiểm định và quy chuẩn",claude-ai-draft + student-reviewed
+q16,C,2,"Giống B (không có filter)",claude-ai-draft + student-reviewed
+q17,A,2,"#1 (p26) có ""chủ yếu là USD và EUR""",claude-ai-draft + student-reviewed
+q17,B,2,"#1 (p26) có ""chủ yếu là USD và EUR""",claude-ai-draft + student-reviewed
+q17,C,2,"Giống B (không có filter)",claude-ai-draft + student-reviewed
+q18,A,2,"#2 (p27) có đủ điều kiện (lỗi do con người), nguyên nhân và cả hai biện pháp (tự động hóa, đào tạo); #1 là mảnh 2 dòng nhiễu",claude-ai-draft + student-reviewed
+q18,B,2,"#1 (p27) có đủ điều kiện, nguyên nhân và biện pháp; phân biệt rõ với trường hợp lỗi do máy móc",claude-ai-draft + student-reviewed
+q18,C,2,"Giống B (không có filter)",claude-ai-draft + student-reviewed
+q20,A,0,"Không có chunk nào về nguyên tắc quản lý chất lượng; #3 là nguyên tắc bố trí mặt bằng (sai chương) dễ gây trả lời sai",claude-ai-draft + student-reviewed
+q20,B,1,"#2 (p22) có 3/7 nguyên tắc nhưng thiếu câu dẫn; #3 là nguyên tắc bố trí mặt bằng (sai chương), #1 nhiễu chương rủi ro",claude-ai-draft + student-reviewed
+q20,C,2,"Filter đúng chương: #1 + #3 (p22) chứa đủ 7 nguyên tắc và truy được nguồn p22 / quan_ly_chat_luong. Câu dẫn ""Các nguyên tắc để quản lý chất lượng sản phẩm bao gồm"" nằm ở chunk trước nhưng không ảnh hưởng đến câu trả lời (bản nháp AI chấm 1, học viên sửa thành 2)",student
+q21,A,0,"Không có chunk trang 14; #1 là ưu điểm chiến lược chi phí thấp (sai chủ đề)",claude-ai-draft + student-reviewed
+q21,B,0,"Không có chunk trang 14; #3 là ưu điểm chiến lược chi phí thấp (sai chủ đề)",claude-ai-draft + student-reviewed
+q21,C,1,"Filter giữ đúng chương 4 nhưng chỉ có #2 (p14) chứa 1/4 ưu điểm (""Tổng chi phí thấp hơn..."") tách khỏi câu dẫn và 3 ưu điểm còn lại; #1 là OCR nhiễu của BMC",claude-ai-draft + student-reviewed

@@ -1,0 +1,64 @@
+question_id,strategy,rank,chunk_id,source,page,printed_page,section,subsection,content_source,source_file_exists,text_found_on_page,section_on_page,printed_page_ok,filter,matches_filter
+q04,A,1,qlsxks-l06-nhom2-p006-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,mixed,True,True,True,True,,
+q04,A,2,qlsxks-l06-nhom2-p006-fixed500o50-001,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,ocr,True,True,True,True,,
+q04,A,3,qlsxks-l06-nhom2-p005-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,5,4,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,pdf_text,True,True,True,True,,
+q04,B,1,qlsxks-l06-nhom2-p006-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,ocr,True,True,True,True,,
+q04,B,2,qlsxks-l06-nhom2-p006-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,pdf_text,True,True,True,True,,
+q04,B,3,qlsxks-l06-nhom2-p005-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,5,4,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,pdf_text,True,True,True,True,,
+q04,C,1,qlsxks-l06-nhom2-p006-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,ocr,True,True,True,True,,
+q04,C,2,qlsxks-l06-nhom2-p006-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,6,5,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,pdf_text,True,True,True,True,,
+q04,C,3,qlsxks-l06-nhom2-p005-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,5,4,tong_quan_ve_doanh_nghiep,1.2 Tình hình kinh doanh của doanh nghiệp,pdf_text,True,True,True,True,,
+q14,A,1,qlsxks-l06-nhom2-p021-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,21,20,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,A,2,qlsxks-l06-nhom2-p020-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,A,3,qlsxks-l06-nhom2-p020-fixed500o50-003,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,B,1,qlsxks-l06-nhom2-p021-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,21,20,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,B,2,qlsxks-l06-nhom2-p020-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,B,3,qlsxks-l06-nhom2-p020-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,C,1,qlsxks-l06-nhom2-p021-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,21,20,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,C,2,qlsxks-l06-nhom2-p020-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q14,C,3,qlsxks-l06-nhom2-p020-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,20,19,quan_ly_ton_kho,"5.2 Báo cáo số liệu, phân tích và dự báo",pdf_text,True,True,True,True,,
+q16,A,1,qlsxks-l06-nhom2-p023-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,23,22,quan_ly_chat_luong,6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh,pdf_text,True,True,True,True,,
+q16,A,2,qlsxks-l06-nhom2-p026-fixed500o50-005,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q16,A,3,qlsxks-l06-nhom2-p029-fixed500o50-002,docs/222_QLSXKS_L06_Nhom_2.pdf,29,28,ket_luan,,pdf_text,True,True,True,True,,
+q16,B,1,qlsxks-l06-nhom2-p023-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,23,22,quan_ly_chat_luong,6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh,pdf_text,True,True,True,True,,
+q16,B,2,qlsxks-l06-nhom2-p025-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,25,24,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q16,B,3,qlsxks-l06-nhom2-p004-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,4,3,tong_quan_ve_doanh_nghiep,1.1 Giới thiệu doanh nghiệp,pdf_text,True,True,True,True,,
+q16,C,1,qlsxks-l06-nhom2-p023-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,23,22,quan_ly_chat_luong,6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh,pdf_text,True,True,True,True,,
+q16,C,2,qlsxks-l06-nhom2-p025-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,25,24,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q16,C,3,qlsxks-l06-nhom2-p004-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,4,3,tong_quan_ve_doanh_nghiep,1.1 Giới thiệu doanh nghiệp,pdf_text,True,True,True,True,,
+q17,A,1,qlsxks-l06-nhom2-p026-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,A,2,qlsxks-l06-nhom2-p026-fixed500o50-001,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,A,3,qlsxks-l06-nhom2-p026-fixed500o50-002,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,B,1,qlsxks-l06-nhom2-p026-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,B,2,qlsxks-l06-nhom2-p026-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,B,3,qlsxks-l06-nhom2-p027-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,27,26,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,C,1,qlsxks-l06-nhom2-p026-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,C,2,qlsxks-l06-nhom2-p026-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q17,C,3,qlsxks-l06-nhom2-p027-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,27,26,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,A,1,qlsxks-l06-nhom2-p026-fixed500o50-005,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,A,2,qlsxks-l06-nhom2-p027-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,27,26,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,A,3,qlsxks-l06-nhom2-p015-fixed500o50-001,docs/222_QLSXKS_L06_Nhom_2.pdf,15,14,quan_ly_chuoi_cung_ung,4.2 Cấu trúc chuỗi cung ứng,pdf_text,True,True,True,True,,
+q18,B,1,qlsxks-l06-nhom2-p027-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,27,26,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,B,2,qlsxks-l06-nhom2-p026-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,B,3,qlsxks-l06-nhom2-p025-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,25,24,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,C,1,qlsxks-l06-nhom2-p027-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,27,26,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,C,2,qlsxks-l06-nhom2-p026-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q18,C,3,qlsxks-l06-nhom2-p025-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,25,24,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,,
+q20,A,1,qlsxks-l06-nhom2-p028-fixed500o50-004,docs/222_QLSXKS_L06_Nhom_2.pdf,28,27,quan_ly_rui_ro,7.2.3 Kế hoạch quản lý rủi ro,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",False
+q20,A,2,qlsxks-l06-nhom2-p026-fixed500o50-005,docs/222_QLSXKS_L06_Nhom_2.pdf,26,25,quan_ly_rui_ro,7.2.1 Phân tích rủi ro,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",False
+q20,A,3,qlsxks-l06-nhom2-p013-fixed500o50-000,docs/222_QLSXKS_L06_Nhom_2.pdf,13,12,bo_tri_mat_bang,3.2 Chiến lược bố trí mặt bằng,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",False
+q20,B,1,qlsxks-l06-nhom2-p028-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,28,27,quan_ly_rui_ro,7.2.3 Kế hoạch quản lý rủi ro,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",False
+q20,B,2,qlsxks-l06-nhom2-p022-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,22,21,quan_ly_chat_luong,6.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",True
+q20,B,3,qlsxks-l06-nhom2-p013-para800-000,docs/222_QLSXKS_L06_Nhom_2.pdf,13,12,bo_tri_mat_bang,3.2 Chiến lược bố trí mặt bằng,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",False
+q20,C,1,qlsxks-l06-nhom2-p022-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,22,21,quan_ly_chat_luong,6.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",True
+q20,C,2,qlsxks-l06-nhom2-p023-para800-003,docs/222_QLSXKS_L06_Nhom_2.pdf,23,22,quan_ly_chat_luong,6.2 Chất lượng sản phẩm công ty nước khoáng Quảng Ninh,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",True
+q20,C,3,qlsxks-l06-nhom2-p022-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,22,21,quan_ly_chat_luong,6.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chat_luong""}",True
+q21,A,1,qlsxks-l06-nhom2-p008-fixed500o50-002,docs/222_QLSXKS_L06_Nhom_2.pdf,8,7,thiet_ke_san_pham_va_dich_vu,2.1 Thiết kế sản phẩm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,A,2,qlsxks-l06-nhom2-p022-fixed500o50-002,docs/222_QLSXKS_L06_Nhom_2.pdf,22,21,quan_ly_chat_luong,6.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,A,3,qlsxks-l06-nhom2-p011-fixed500o50-001,docs/222_QLSXKS_L06_Nhom_2.pdf,11,10,bo_tri_mat_bang,3.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,B,1,qlsxks-l06-nhom2-p007-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,7,6,thiet_ke_san_pham_va_dich_vu,2.1 Thiết kế sản phẩm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,B,2,qlsxks-l06-nhom2-p022-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,22,21,quan_ly_chat_luong,6.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,B,3,qlsxks-l06-nhom2-p008-para800-001,docs/222_QLSXKS_L06_Nhom_2.pdf,8,7,thiet_ke_san_pham_va_dich_vu,2.1 Thiết kế sản phẩm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",False
+q21,C,1,qlsxks-l06-nhom2-p018-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,18,17,quan_ly_chuoi_cung_ung,4.5 Kế hoạch sản xuất vật tư và phân phối sản phẩm,ocr,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",True
+q21,C,2,qlsxks-l06-nhom2-p014-para800-002,docs/222_QLSXKS_L06_Nhom_2.pdf,14,13,quan_ly_chuoi_cung_ung,4.1 Khái niệm,pdf_text,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",True
+q21,C,3,qlsxks-l06-nhom2-p014-para800-004,docs/222_QLSXKS_L06_Nhom_2.pdf,14,13,quan_ly_chuoi_cung_ung,4.2 Cấu trúc chuỗi cung ứng,ocr,True,True,True,True,"{""section"": ""quan_ly_chuoi_cung_ung""}",True

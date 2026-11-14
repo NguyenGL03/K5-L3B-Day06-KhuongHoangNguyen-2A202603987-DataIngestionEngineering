@@ -1,0 +1,39 @@
+{
+  "selected_at": "2026-11-14T10:58:26+07:00",
+  "criterion": "Chốt trước khi xem test: chọn chiến lược có Evidence Hit@3 trên dev cao nhất; hòa thì xét Hit@1 dev, rồi điểm grounding thủ công, rồi số chunk/thời gian ingest thấp hơn.",
+  "dev_metrics": {
+    "A": {
+      "N": 17,
+      "hit_at_1": 8,
+      "evidence_hit_at_3": 10,
+      "filter_compliant": 0,
+      "filter_questions": 3
+    },
+    "B": {
+      "N": 17,
+      "hit_at_1": 14,
+      "evidence_hit_at_3": 17,
+      "filter_compliant": 0,
+      "filter_questions": 3
+    },
+    "C": {
+      "N": 17,
+      "hit_at_1": 15,
+      "evidence_hit_at_3": 17,
+      "filter_compliant": 3,
+      "filter_questions": 3
+    }
+  },
+  "chunks_per_index": {
+    "A": 112,
+    "B": 91
+  },
+  "ranking": [
+    "C",
+    "B",
+    "A"
+  ],
+  "selected": "C",
+  "full_ties": [],
+  "note": "Chọn trước khi chạy test. Bậc 3 của tiêu chí (grounding thủ công) chỉ được chấm trên test nên không dùng để chọn; khi hòa Hit@3 và Hit@1 trên dev thì xét tài nguyên (số chunk). Nếu vẫn hòa (B và C dùng chung index), ưu tiên chiến lược đứng trước trong thứ tự sắp xếp ổn định A, B, C."
+}

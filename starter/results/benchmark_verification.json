@@ -1,0 +1,426 @@
+{
+  "generated_at": "2026-11-14T10:52:05+07:00",
+  "questions": 24,
+  "splits": {
+    "dev": 17,
+    "test": 7
+  },
+  "filter_questions": {
+    "dev": 3,
+    "test": 2
+  },
+  "rules": {
+    ">=20 questions": true,
+    ">=15 dev": true,
+    ">=5 test": true,
+    ">=3 filter questions": true,
+    ">=1 test filter": true
+  },
+  "section_values": [
+    "bo_tri_mat_bang",
+    "ket_luan",
+    "quan_ly_chat_luong",
+    "quan_ly_chuoi_cung_ung",
+    "quan_ly_rui_ro",
+    "quan_ly_ton_kho",
+    "thiet_ke_san_pham_va_dich_vu",
+    "tong_quan_ve_doanh_nghiep"
+  ],
+  "problems": [],
+  "details": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 4,
+          "evidence_quote": "tiền thân là Xí nghiệp nước khoáng Quảng Ninh, được thành lập ngày 17/7/1989",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "so_lieu",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 4,
+          "evidence_quote": "sản xuất và tiêu thụ 45 triệu lít nước khoáng/ năm với 10 chủng loại sản phẩm của 2 thương hiệu nước khoáng khác nhau",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "so_lieu",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 5,
+          "evidence_quote": "Doanh thu thuần của doanh nghiệp năm 2022 đạt 258,880 triệu VND tăng hơn 20%",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q04",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 6,
+          "evidence_quote": "đạt doanh thu kế hoạch 118% và lợi nhuận sau thuế kế hoạch lên tới 161%",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "dieu_kien",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 8,
+          "evidence_quote": "Dịch vụ giao hàng tận nơi, miễn phí đối với đơn hàng có giá trị từ 500.000 VNĐ trở lên.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 8,
+          "evidence_quote": "nhóm sẽ đề xuất áp dụng chiến lược chi phí thấp để cạnh tranh với các công ty Nước khoáng khác trên thị trường",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dieu_kien",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 11,
+          "evidence_quote": "Bố trí mặt bằng theo sản phẩm hay nhóm sản phẩm được áp dụng khi sản lượng lớn và ít chủng loại sản phẩm, đồng thời thỏa các yếu tố sau: – Nhu cầu ổn định – Sản lượng đảm bảo hệ số sử dụng thiết bị. – Sản phẩm đã chuẩn hóa hay đạt được một pha của chu kỳ sản phẩm. – Nguyên vật liệu đảm bảo chất lượng đồng đều.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 12,
+          "evidence_quote": "Nước khoáng thiên nhiên Suối Mơ được khai thác và sản xuất từ giếng khoan số 45 có độ sâu trên 140m tại Bãi cháy, Hạ Long",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 13,
+          "evidence_quote": "Nguyên tắc bố trí mặt bằng: – Tuân thủ quy trình công nghệ sản xuất",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": {
+        "section": "bo_tri_mat_bang"
+      },
+      "filter_valid": true
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 15,
+          "evidence_quote": "giếng khoan 3B, km9 phường Quảng Ninh, Tp. Cẩm Phả, theo Giấy phép số 10/QĐ-MĐC-QLTN",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "so_lieu",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 16,
+          "evidence_quote": "Tổng sản phẩm (bình 19 lít) một ngày nhà máy có thể sản xuất: 630 bình, cần 15 ngày để đong 10000 bình.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 18,
+          "evidence_quote": "xuất khẩu sản phẩm đến nhiều thị trường quốc tế, bao gồm các nước trong khu vực Đông Nam Á và Trung Quốc",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "metadata_filter",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 19,
+          "evidence_quote": "Có 4 loại tồn kho bao gồm: – Tồn kho nguyên vật liệu:là nguyên phụ liệu chưa được đưa vào quy trình sản xuất – Tồn kho bán thành phẩm:là các nguyên liệu đã trải qua một số thay đổi, sử dụng nhưng chưa trở thành thành phẩm. – Tồn kho thành phẩm:là sản phẩm hoàn chỉnh và chờ giao hàng. – Tồn kho phụ tùng:là những phụ tùng dành cho bảo trì/ sửa chữa/ vận hành.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": {
+        "section": "quan_ly_ton_kho"
+      },
+      "filter_valid": true
+    },
+    {
+      "id": "q14",
+      "split": "test",
+      "type": "so_lieu",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 21,
+          "evidence_quote": "Giá trị tồn kho giảm từ 10.957.832.534 VND xuống còn 8.629.229.432 VND giảm 2.328.603.102 VND",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 24,
+          "evidence_quote": "bao gồm các bước như sau: – Phân tích rủi ro – Đánh giá rủi ro – Đưa ra giải pháp xử lý rủi ro",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": {
+        "section": "quan_ly_rui_ro"
+      },
+      "filter_valid": true
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 23,
+          "evidence_quote": "đã được kiểm định bởi Chi cục an toàn thực phẩm sở y tế Quảng Ninh. Công ty đạt chuẩn kĩ thuật QCVN 6/1:2010/BYT.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 26,
+          "evidence_quote": "Loại tiền tệ gây ra rủi ro này chủ yếu là USD và EUR",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "dieu_kien",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 27,
+          "evidence_quote": "Nếu lỗi xuất phát từ con người, nó thường đến từ khâu vận chuyển hoặc khi được xử lý bằng tay, vậy nên áp dụng tối đa những công nghệ tự động hóa vào quá trình sản xuất",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q19",
+      "split": "dev",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 28,
+          "evidence_quote": "Rủi ro nghiêm trọng: Rủi ro trong khâu sản xuất, quá trình cạnh tranh, vận hành sản xuất, pháp lý.",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "metadata_filter",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 22,
+          "evidence_quote": "Các nguyên tắc để quản lý chất lượng sản phẩm bao gồm: – Định hướng bởi khách hàng",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": {
+        "section": "quan_ly_chat_luong"
+      },
+      "filter_valid": true
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "metadata_filter",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 14,
+          "evidence_quote": "Ưu điểm của việc sử dụng hợp đồng sản xuất: – Tiếp cận nhanh các công nghệ sản xuất tiên tiến. – Thời gian đưa sản phẩm ra thị trường nhanh hơn. – Tăng tính linh hoạt của hàng hoá trong thị trường khu vực. – Tổng chi phí thấp hơn do tính kinh tế về quy mô",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": {
+        "section": "quan_ly_chuoi_cung_ung"
+      },
+      "filter_valid": true
+    },
+    {
+      "id": "q22",
+      "split": "dev",
+      "type": "so_lieu",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 20,
+          "evidence_quote": "Tồn kho do hàng mua đang đi đường:giá trị đầu năm bằng 0 gia tăng đến cuối năm 2021 lên tới 1.605.800.000 VND",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q23",
+      "split": "dev",
+      "type": "truc_tiep",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 23,
+          "evidence_quote": "hệ thống quản lý chất lượng theo tiêu chuẩn Quốc tế ISO 9001:2008 và Hệ thống quản lý chất lượng vệ sinh an toàn thực phẩm HACCP - CODE: 2003",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    },
+    {
+      "id": "q24",
+      "split": "dev",
+      "type": "dieu_kien",
+      "evidence": [
+        {
+          "gold_source_id": "qlsxks-l06-nhom2",
+          "gold_page": 16,
+          "evidence_quote": "được bơm qua hệ thống lọc thô để loại bỏ các tạp chất lơ lửng sau đó qua hệ thống lọc tinh, lọc RO",
+          "page_indexed": true,
+          "quote_found": true
+        }
+      ],
+      "filter": null,
+      "filter_valid": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-11-14T10:58:41+07:00",
+  "config": {
+    "embedding": {
+      "model": "google/embeddinggemma-2",
+      "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+      "batch_size": 16
+    },
+    "vector_store": {
+      "backend": "PostgreSQL + pgvector",
+      "table": "rag_chunks",
+      "metric": "cosine (<=>)",
+      "search": "exact (no ANN index)"
+    },
+    "top_k": 3,
+    "indexes": {
+      "A": {
+        "chunker": "fixed_size",
+        "size": 500,
+        "overlap": 50
+      },
+      "B": {
+        "chunker": "by_paragraph",
+        "max_size": 800
+      }
+    },
+    "strategies": {
+      "A": {
+        "index": "A",
+        "use_filter": false,
+        "description": "Fixed 500 ký tự, overlap 50, cắt tại khoảng trắng; không lọc"
+      },
+      "B": {
+        "index": "B",
+        "use_filter": false,
+        "description": "Theo heading/đoạn, gộp đoạn tới 800 ký tự; không lọc"
+      },
+      "C": {
+        "index": "B",
+        "use_filter": true,
+        "description": "Giống B + lọc SQL theo section khi câu hỏi có filter"
+      }
+    }
+  },
+  "embedding": {
+    "provider": "local (Sentence Transformers)",
+    "model": "google/embeddinggemma-2",
+    "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+    "dimensions": 768,
+    "device": "cpu",
+    "dtype": "float32",
+    "normalized": true,
+    "document_prompt": "title: none | text: ",
+    "query_prompt": "task: search result | query: ",
+    "max_seq_length": 1000000000000000019884624838656,
+    "versions": {
+      "sentence_transformers": "6.3.0",
+      "transformers": "5.23.0",
+      "torch": "2.15.0+cpu"
+    },
+    "cost_usd": 0.0
+  }
+}

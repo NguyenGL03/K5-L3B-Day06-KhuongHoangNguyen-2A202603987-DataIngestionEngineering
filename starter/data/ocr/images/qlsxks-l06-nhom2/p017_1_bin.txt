@@ -1,0 +1,20 @@
+Lead time Số lượng ltem
+
+l 10000 Thành phẩm (T)
+
+15 10000 Nước được đong vào bình
+(M)
+
+4 10000 Bao bì in nhăn hiệu nhà sản
+suất (Z) :
+
+5 190000(1) Xử lý và kiêm tra chất
+lượng nước(])
+
+b 10000 Thôi bình, vệ sinh (H)
+
+5 200000(1) Nước khai thác từ nguồn
+()
+
+4 10000 - Phôi binh (Y)
+

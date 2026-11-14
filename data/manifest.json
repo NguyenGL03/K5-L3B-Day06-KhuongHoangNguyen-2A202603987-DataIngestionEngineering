@@ -1,0 +1,377 @@
+{
+  "corpus_name": "Báo cáo BTL Quản lý sản xuất cho kỹ sư — CTCP Nước khoáng Quảng Ninh",
+  "counting_rule": "Đếm trang PDF vật lý có nội dung liên quan đến chủ đề. Loại: bìa (p1), mục lục (p2), bảng phân công (p3), trang chỉ có tài liệu tham khảo (p30). Trang có nội dung chính là bảng/biểu đồ dạng ảnh vẫn được tính; ảnh được OCR (xem ocr bên dưới).",
+  "requirement_check": "ĐẠT: yêu cầu corpus đã được xác nhận lại là 20–30 trang nội dung; corpus có 26 trang nội dung (41.613 ký tự text PDF + ký tự OCR, xem content_ocr_chars).",
+  "documents": [
+    {
+      "source_id": "qlsxks-l06-nhom2",
+      "title": "Báo cáo bài tập lớn — Quản lý sản xuất cho kỹ sư (HK222), đề tài Công ty Cổ phần Nước khoáng Quảng Ninh, Nhóm 2 lớp L06",
+      "source_path_or_url": "docs/222_QLSXKS_L06_Nhom_2.pdf",
+      "license_or_permission": "Được phép sử dụng: báo cáo bài tập lớn do nhóm của học viên thực hiện (học viên là thành viên nhóm tác giả), dùng cho mục đích học tập trong lab. Embedding và OCR chạy local, không gửi nội dung lên API.",
+      "personal_data": "Trang 1 (bìa) và trang 3 (phân công) chứa họ tên và MSSV các thành viên nhóm: không phải nội dung chủ đề nên bị loại khỏi index, không được embed hay OCR vào corpus.",
+      "accessed_at": "2026-11-14",
+      "snapshot": "PDF tạo bởi pdfTeX-1.40.24, CreationDate 2023-04-05 (metadata PDF); sha256 bên dưới xác định phiên bản file.",
+      "language": "vi",
+      "physical_pages": 30,
+      "excluded_pages": {
+        "1": "bìa, chứa họ tên/MSSV",
+        "2": "mục lục",
+        "3": "bảng phân công, chứa họ tên/MSSV",
+        "30": "chỉ có tài liệu tham khảo"
+      },
+      "content_pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "metadata_fields": {
+        "document_id": "text — source_id ở trên",
+        "source": "text — đường dẫn file tương đối từ gốc repo",
+        "page": "integer — số trang PDF vật lý (1-based); gold_page dùng giá trị này",
+        "printed_page": "integer — số 'Trang n/29' in ở footer (= page - 1)",
+        "section": "text slug — chương lấy từ heading đánh số trong PDF (vd. '5 Quản lý tồn kho' -> quan_ly_ton_kho); dùng làm filter",
+        "section_no": "integer — số chương 1..8",
+        "section_title": "text — tiêu đề chương nguyên văn",
+        "subsection": "text — heading mục con nguyên văn gần nhất (vd. '5.2 Báo cáo số liệu, phân tích và dự báo')"
+      },
+      "sha256": "a7746d53fc288e47e9d87598d1a6a54af2d1aa4d5845b806791f5736ef8c0889",
+      "page_stats": [
+        {
+          "page": 1,
+          "printed_page": null,
+          "included": false,
+          "status": "ok",
+          "clean_chars": 418,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 2,
+          "printed_page": 1,
+          "included": false,
+          "status": "ok",
+          "clean_chars": 2373,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 3,
+          "printed_page": 2,
+          "included": false,
+          "status": "ok",
+          "clean_chars": 538,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 4,
+          "printed_page": 3,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2757,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 5,
+          "printed_page": 4,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 528,
+          "images": 4,
+          "ocr_images": 3,
+          "ocr_chars": 1045
+        },
+        {
+          "page": 6,
+          "printed_page": 5,
+          "included": true,
+          "status": "low_text",
+          "clean_chars": 255,
+          "images": 6,
+          "ocr_images": 5,
+          "ocr_chars": 873
+        },
+        {
+          "page": 7,
+          "printed_page": 6,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2413,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 8,
+          "printed_page": 7,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1821,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 9,
+          "printed_page": 8,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 442,
+          "images": 3,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 10,
+          "printed_page": 9,
+          "included": true,
+          "status": "low_text",
+          "clean_chars": 265,
+          "images": 3,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 11,
+          "printed_page": 10,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1819,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 12,
+          "printed_page": 11,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1834,
+          "images": 2,
+          "ocr_images": 1,
+          "ocr_chars": 103
+        },
+        {
+          "page": 13,
+          "printed_page": 12,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 879,
+          "images": 2,
+          "ocr_images": 1,
+          "ocr_chars": 311
+        },
+        {
+          "page": 14,
+          "printed_page": 13,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1726,
+          "images": 2,
+          "ocr_images": 1,
+          "ocr_chars": 48
+        },
+        {
+          "page": 15,
+          "printed_page": 14,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2373,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 16,
+          "printed_page": 15,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1995,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 17,
+          "printed_page": 16,
+          "included": true,
+          "status": "low_text",
+          "clean_chars": 73,
+          "images": 4,
+          "ocr_images": 1,
+          "ocr_chars": 266
+        },
+        {
+          "page": 18,
+          "printed_page": 17,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1333,
+          "images": 2,
+          "ocr_images": 1,
+          "ocr_chars": 1137
+        },
+        {
+          "page": 19,
+          "printed_page": 18,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2037,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 20,
+          "printed_page": 19,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2048,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 21,
+          "printed_page": 20,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1904,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 22,
+          "printed_page": 21,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2110,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 23,
+          "printed_page": 22,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2067,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 24,
+          "printed_page": 23,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1804,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 25,
+          "printed_page": 24,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2117,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 26,
+          "printed_page": 25,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 2387,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 27,
+          "printed_page": 26,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 954,
+          "images": 2,
+          "ocr_images": 1,
+          "ocr_chars": 274
+        },
+        {
+          "page": 28,
+          "printed_page": 27,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1849,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 29,
+          "printed_page": 28,
+          "included": true,
+          "status": "ok",
+          "clean_chars": 1823,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        },
+        {
+          "page": 30,
+          "printed_page": 29,
+          "included": false,
+          "status": "ok",
+          "clean_chars": 1304,
+          "images": 1,
+          "ocr_images": 0,
+          "ocr_chars": 0
+        }
+      ],
+      "content_page_count": 26,
+      "content_chars": 41613,
+      "content_ocr_chars": 4057
+    }
+  ],
+  "ocr": {
+    "tool": "Tesseract 5.3.0 + tessdata vie (Debian bookworm), chạy trong Docker image day6-ocr:tesseract-vie (starter/ocr/Dockerfile)",
+    "command": "python -m src.run ocr (từ starter/)",
+    "method": "Trích ảnh nhúng bằng pypdf, bỏ ảnh lặp ≥60% trang (logo header). Mỗi ảnh OCR 2 biến thể (xám phóng 2x; nhị phân hóa ngưỡng 150), --psm 4, giữ biến thể có độ tin cậy trung bình cao hơn. Nhận khi độ tin cậy ≥80 và ≥40 ký tự sạch.",
+    "results": "starter/data/ocr/ocr_results.json (text, độ tin cậy, lý do nhận/loại từng ảnh)",
+    "accepted": "14/20 ảnh: bảng tài chính p5, biểu đồ p6 (chỉ đọc được tiêu đề/nhãn), quy trình p12, sơ đồ mặt bằng p13, chuỗi cung ứng p14, bảng lead time p17, Business Model Canvas p18, ma trận rủi ro p27.",
+    "rejected": "6/20: ảnh nhãn chai sản phẩm p9, p10 (độ tin cậy 12–78, chủ yếu nhiễu); cây sản phẩm p17 (chỉ chữ cái T/M/Z/J/H/X/Y); bảng lịch theo ngày p17 (OCR không giữ được cấu trúc ô).",
+    "known_errors": "Bảng ma trận rủi ro p27: các ô nền đỏ/xanh làm mất tên 7/9 dòng rủi ro (chỉ còn số); một số lỗi dấu (vd. 'Thành phâm', 'nhăn hiệu'); biểu đồ đường p6 chỉ lấy được tiêu đề và trục, không lấy được giá trị."
+  }
+}

@@ -1,0 +1,2662 @@
+{
+  "generated_at": "2026-11-14T10:58:11+07:00",
+  "split": "dev",
+  "summary": {
+    "A": {
+      "dev": {
+        "N": 17,
+        "hit_at_1": 8,
+        "hit_at_1_rate": 0.471,
+        "evidence_hit_at_3": 10,
+        "evidence_hit_at_3_rate": 0.588,
+        "page_hit_at_3": 17,
+        "mrr_at_3": 0.52,
+        "evidence_split_suspected": 2,
+        "filter_questions": 3,
+        "filter_compliant": 0,
+        "misses": [
+          "q01",
+          "q06",
+          "q07",
+          "q09",
+          "q13",
+          "q15",
+          "q23"
+        ]
+      }
+    },
+    "B": {
+      "dev": {
+        "N": 17,
+        "hit_at_1": 14,
+        "hit_at_1_rate": 0.824,
+        "evidence_hit_at_3": 17,
+        "evidence_hit_at_3_rate": 1.0,
+        "page_hit_at_3": 17,
+        "mrr_at_3": 0.902,
+        "evidence_split_suspected": 0,
+        "filter_questions": 3,
+        "filter_compliant": 0,
+        "misses": []
+      }
+    },
+    "C": {
+      "dev": {
+        "N": 17,
+        "hit_at_1": 15,
+        "hit_at_1_rate": 0.882,
+        "evidence_hit_at_3": 17,
+        "evidence_hit_at_3_rate": 1.0,
+        "page_hit_at_3": 17,
+        "mrr_at_3": 0.941,
+        "evidence_split_suspected": 0,
+        "filter_questions": 3,
+        "filter_compliant": 3,
+        "misses": []
+      }
+    }
+  },
+  "per_query": [
+    {
+      "strategy": "A",
+      "question_id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": true,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.876646,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.875,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-001",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.845169,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.75,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p029-fixed500o50-001",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.784237,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.438,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-001",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.889756,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.781196,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.312,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-000",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.778597,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-001",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.889756,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.781196,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.312,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-000",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.778597,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q02",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-003",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.828961,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-004",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.788981,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.56,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.775468,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.4,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q02",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-001",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.790593,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.774837,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.56,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p009-para800-000",
+          "page": 9,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.773835,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.48,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q02",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-001",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.790593,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-002",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.774837,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.56,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p009-para800-000",
+          "page": 9,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.773835,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.48,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q03",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p005-fixed500o50-000",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.829765,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p005-fixed500o50-001",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.769053,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.625,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p006-fixed500o50-000",
+          "page": 6,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.75936,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.375,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q03",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p005-para800-000",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.832065,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p005-para800-001",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.786177,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.562,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p006-para800-001",
+          "page": 6,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.756341,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.375,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q03",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p005-para800-000",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.832065,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p005-para800-001",
+          "page": 5,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.786177,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.562,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p006-para800-001",
+          "page": 6,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.756341,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.375,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q05",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p008-fixed500o50-003",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.78728,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p015-fixed500o50-000",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.737403,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.19,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p025-fixed500o50-002",
+          "page": 25,
+          "section": "quan_ly_rui_ro",
+          "score": 0.702191,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.286,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q05",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-002",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.770405,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p015-para800-000",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.732442,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.19,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p014-para800-001",
+          "page": 14,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.703477,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.143,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q05",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-002",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.770405,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p015-para800-000",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.732442,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.19,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p014-para800-001",
+          "page": 14,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.703477,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.143,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p029-fixed500o50-003",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.782356,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.25,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p008-fixed500o50-002",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.732192,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.625,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p021-fixed500o50-004",
+          "page": 21,
+          "section": "quan_ly_ton_kho",
+          "score": 0.727507,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.083,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 2,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p029-para800-003",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.757864,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.333,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-001",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.735678,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p026-para800-002",
+          "page": 26,
+          "section": "quan_ly_rui_ro",
+          "score": 0.727117,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.417,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q06",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 2,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p029-para800-003",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.757864,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.333,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-001",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.735678,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p026-para800-002",
+          "page": 26,
+          "section": "quan_ly_rui_ro",
+          "score": 0.727117,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.417,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q07",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": true,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p011-fixed500o50-002",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.818727,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.971,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p011-fixed500o50-001",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.805208,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.493,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-fixed500o50-000",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.781927,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.406,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q07",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p011-para800-001",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.875649,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p011-para800-000",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.781176,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.565,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-000",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.774489,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q07",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p011-para800-001",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.875649,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p011-para800-000",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.781176,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.565,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-000",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.774489,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p012-fixed500o50-000",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.787496,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p009-fixed500o50-000",
+          "page": 9,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.738478,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.593,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p011-fixed500o50-003",
+          "page": 11,
+          "section": "bo_tri_mat_bang",
+          "score": 0.736571,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.481,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-000",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.812391,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p009-para800-000",
+          "page": 9,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.728812,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.593,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-003",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.718727,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.37,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q08",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-000",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.812391,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p009-para800-000",
+          "page": 9,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.728812,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.593,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-para800-003",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.718727,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.37,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p013-fixed500o50-001",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.700683,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.571,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p023-fixed500o50-004",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.69457,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.286,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p028-fixed500o50-004",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.693426,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.0,
+          "is_hit": false,
+          "matches_filter": false
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 3,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p022-para800-001",
+          "page": 22,
+          "section": "quan_ly_chat_luong",
+          "score": 0.694938,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.143,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p023-para800-003",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.691467,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.0,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-000",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.680534,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": true,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-000",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.680534,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-001",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.646911,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.429,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-001",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.637841,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.571,
+          "is_hit": false,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p015-fixed500o50-003",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.835888,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p015-fixed500o50-002",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.74902,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.389,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-fixed500o50-002",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.726244,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.167,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p015-para800-002",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.815061,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-000",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.723218,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.222,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-002",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.707329,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.167,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q10",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p015-para800-002",
+          "page": 15,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.815061,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-000",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.723218,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.222,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-002",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.707329,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.167,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q11",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-fixed500o50-004",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.859096,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p016-fixed500o50-003",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.832063,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.609,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p017-fixed500o50-000",
+          "page": 17,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.752398,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q11",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-para800-003",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.862494,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p017-para800-001",
+          "page": 17,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.780739,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.391,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-002",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.723556,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.348,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q11",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-para800-003",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.862494,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p017-para800-001",
+          "page": 17,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.780739,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.391,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-002",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.723556,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.348,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q12",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p018-fixed500o50-002",
+          "page": 18,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.769119,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p029-fixed500o50-002",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.765697,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.565,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p004-fixed500o50-004",
+          "page": 4,
+          "section": "tong_quan_ve_doanh_nghiep",
+          "score": 0.736998,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q12",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 2,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p029-para800-002",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.79376,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.565,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p018-para800-001",
+          "page": 18,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.76762,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-000",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.726506,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q12",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 2,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p029-para800-002",
+          "page": 29,
+          "section": "ket_luan",
+          "score": 0.79376,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.565,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p018-para800-001",
+          "page": 18,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.76762,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p008-para800-000",
+          "page": 8,
+          "section": "thiet_ke_san_pham_va_dich_vu",
+          "score": 0.726506,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.435,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q13",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p019-fixed500o50-001",
+          "page": 19,
+          "section": "quan_ly_ton_kho",
+          "score": 0.710356,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.766,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p028-fixed500o50-000",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.708315,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.156,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p018-fixed500o50-003",
+          "page": 18,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.690998,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.104,
+          "is_hit": false,
+          "matches_filter": false
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q13",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p019-para800-001",
+          "page": 19,
+          "section": "quan_ly_ton_kho",
+          "score": 0.745591,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p028-para800-000",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.729195,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.104,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p014-para800-004",
+          "page": 14,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.708737,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.078,
+          "is_hit": false,
+          "matches_filter": false
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q13",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": true,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p019-para800-001",
+          "page": 19,
+          "section": "quan_ly_ton_kho",
+          "score": 0.745591,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p019-para800-000",
+          "page": 19,
+          "section": "quan_ly_ton_kho",
+          "score": 0.659623,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.468,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p021-para800-002",
+          "page": 21,
+          "section": "quan_ly_ton_kho",
+          "score": 0.647928,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.468,
+          "is_hit": false,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p023-fixed500o50-002",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.776871,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.318,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p026-fixed500o50-005",
+          "page": 26,
+          "section": "quan_ly_rui_ro",
+          "score": 0.76839,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.045,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p024-fixed500o50-001",
+          "page": 24,
+          "section": "quan_ly_rui_ro",
+          "score": 0.753873,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.636,
+          "is_hit": false,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": false,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p024-para800-001",
+          "page": 24,
+          "section": "quan_ly_rui_ro",
+          "score": 0.773036,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p016-para800-002",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.754476,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.364,
+          "is_hit": false,
+          "matches_filter": false
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p028-para800-003",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.752906,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.455,
+          "is_hit": false,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q15",
+      "split": "dev",
+      "type": "metadata_filter",
+      "has_filter": true,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": true,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p024-para800-001",
+          "page": 24,
+          "section": "quan_ly_rui_ro",
+          "score": 0.773036,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": true
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p028-para800-003",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.752906,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.455,
+          "is_hit": false,
+          "matches_filter": true
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p027-para800-000",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.735326,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.545,
+          "is_hit": false,
+          "matches_filter": true
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 2,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p027-fixed500o50-002",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.823792,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.35,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p028-fixed500o50-000",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.805296,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p028-fixed500o50-004",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.796016,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.2,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p028-para800-000",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.81713,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p027-para800-002",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.812853,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.2,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p027-para800-003",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.790808,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.35,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p028-para800-000",
+          "page": 28,
+          "section": "quan_ly_rui_ro",
+          "score": 0.81713,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p027-para800-002",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.812853,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.2,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p027-para800-003",
+          "page": 27,
+          "section": "quan_ly_rui_ro",
+          "score": 0.790808,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.35,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q22",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": true,
+      "first_hit_rank": 3,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p020-fixed500o50-002",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.874653,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.519,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p020-fixed500o50-000",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.855738,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.481,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p020-fixed500o50-001",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.841152,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q22",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p020-para800-000",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.862163,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p020-para800-001",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.839142,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.667,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p021-para800-000",
+          "page": 21,
+          "section": "quan_ly_ton_kho",
+          "score": 0.790559,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.444,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q22",
+      "split": "dev",
+      "type": "so_lieu",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p020-para800-000",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.862163,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p020-para800-001",
+          "page": 20,
+          "section": "quan_ly_ton_kho",
+          "score": 0.839142,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.667,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p021-para800-000",
+          "page": 21,
+          "section": "quan_ly_ton_kho",
+          "score": 0.790559,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.444,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q23",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "first_hit_rank": null,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p023-fixed500o50-001",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.796141,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p022-fixed500o50-003",
+          "page": 22,
+          "section": "quan_ly_chat_luong",
+          "score": 0.782855,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p023-fixed500o50-002",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.775615,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.6,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q23",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p023-para800-000",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.796582,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p022-para800-002",
+          "page": 22,
+          "section": "quan_ly_chat_luong",
+          "score": 0.788392,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p023-para800-001",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.770544,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.6,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q23",
+      "split": "dev",
+      "type": "truc_tiep",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p023-para800-000",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.796582,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p022-para800-002",
+          "page": 22,
+          "section": "quan_ly_chat_luong",
+          "score": 0.788392,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.5,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p023-para800-001",
+          "page": 23,
+          "section": "quan_ly_chat_luong",
+          "score": 0.770544,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.6,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "A",
+      "question_id": "q24",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-fixed500o50-002",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.80289,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p016-fixed500o50-001",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.762555,
+          "page_match": true,
+          "evidence_full": false,
+          "evidence_token_recall": 0.333,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-fixed500o50-002",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.739448,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.167,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "B",
+      "question_id": "q24",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-para800-002",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.822017,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-002",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.742229,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.0,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-003",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.726621,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.333,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    },
+    {
+      "strategy": "C",
+      "question_id": "q24",
+      "split": "dev",
+      "type": "dieu_kien",
+      "has_filter": false,
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "first_hit_rank": 1,
+      "page_hit_at_3": true,
+      "evidence_split_suspected": false,
+      "filter_compliant": null,
+      "ranked": [
+        {
+          "rank": 1,
+          "chunk_id": "qlsxks-l06-nhom2-p016-para800-002",
+          "page": 16,
+          "section": "quan_ly_chuoi_cung_ung",
+          "score": 0.822017,
+          "page_match": true,
+          "evidence_full": true,
+          "evidence_token_recall": 1.0,
+          "is_hit": true,
+          "matches_filter": null
+        },
+        {
+          "rank": 2,
+          "chunk_id": "qlsxks-l06-nhom2-p013-para800-002",
+          "page": 13,
+          "section": "bo_tri_mat_bang",
+          "score": 0.742229,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.0,
+          "is_hit": false,
+          "matches_filter": null
+        },
+        {
+          "rank": 3,
+          "chunk_id": "qlsxks-l06-nhom2-p012-para800-003",
+          "page": 12,
+          "section": "bo_tri_mat_bang",
+          "score": 0.726621,
+          "page_match": false,
+          "evidence_full": false,
+          "evidence_token_recall": 0.333,
+          "is_hit": false,
+          "matches_filter": null
+        }
+      ]
+    }
+  ]
+}

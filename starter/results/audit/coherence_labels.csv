@@ -1,0 +1,21 @@
+position_id,page,index,chunk_id,label,reason,labeler
+pos01,4,A,qlsxks-l06-nhom2-p004-fixed500o50-002,1,"Mở đầu thiếu chủ thể (""Xí nghiệp nước khoáng Quảng Ninh, được thành lập..."" mất ""Công ty CP ... tiền thân là""); câu chứa vị trí bị cắt ở ""5 dây chuyền thiết bị máy móc"", mất phần ""sản xuất và tiêu thụ 45 triệu lít""",claude-ai-draft + student-reviewed
+pos02,5,A,qlsxks-l06-nhom2-p005-fixed500o50-000,2,"Đoạn 1.2 trọn vẹn có heading; chỉ chú thích ""Hình 3: Chỉ"" ở cuối bị cắt, không ảnh hưởng ý tại vị trí",claude-ai-draft + student-reviewed
+pos03,6,A,qlsxks-l06-nhom2-p006-fixed500o50-000,2,"Câu 118%/161% trọn vẹn; phần OCR bảng kế hoạch ở cuối bị cắt (""Doanh"") nhưng vị trí chấm nằm trong đoạn văn đầy đủ",claude-ai-draft + student-reviewed
+pos04,7,A,qlsxks-l06-nhom2-p007-fixed500o50-002,2,"Câu Sứ mệnh tại vị trí đầy đủ chủ thể và ý; đầu chunk là mảnh câu Tầm nhìn (""khoáng và cộng đồng xung quanh."") và cuối cắt ""Sản phẩm chất lượng""",claude-ai-draft + student-reviewed
+pos05,8,A,qlsxks-l06-nhom2-p008-fixed500o50-001,1,"Có câu dẫn ""Đặc điểm của chiến lược cạnh tranh chi phí thấp bao gồm"" nhưng danh sách bị cắt giữa mục 2 (""Không tập trung vào khác biệt""), mất 2 mục sau; đầu chunk là mảnh ""sản phẩm đóng chai...""",claude-ai-draft + student-reviewed
+pos06,9,A,qlsxks-l06-nhom2-p009-fixed500o50-000,2,"Cả trang 9 nằm gọn trong chunk, có heading 2.3",claude-ai-draft + student-reviewed
+pos07,10,A,qlsxks-l06-nhom2-p010-fixed500o50-000,2,"Cả trang 10 nằm gọn trong chunk",claude-ai-draft + student-reviewed
+pos08,11,A,qlsxks-l06-nhom2-p011-fixed500o50-001,0,"Chunk kết thúc đúng giữa câu tại vị trí (""được áp dụng khi sản lượng lớn và ít""), mất toàn bộ 4 điều kiện áp dụng",claude-ai-draft + student-reviewed
+pos09,12,A,qlsxks-l06-nhom2-p012-fixed500o50-001,0,"Câu tại vị trí bị cắt (""Mặt khác, dây chuyền sản xuất các sản phẩm khác nhau của""), không biết điểm chung là gì; đầu chunk cũng là mảnh câu",claude-ai-draft + student-reviewed
+pos10,13,A,qlsxks-l06-nhom2-p013-fixed500o50-000,1,"Có câu dẫn ""Nguyên tắc bố trí mặt bằng"" nhưng nguyên tắc tại vị trí bị cắt ở ""điều kiện làm việc an"", mất 2 nguyên tắc cuối",claude-ai-draft + student-reviewed
+pos01,4,B,qlsxks-l06-nhom2-p004-para800-001,2,"Hai đoạn lịch sử + quy mô trọn vẹn, có chủ thể ""Công ty Cổ phần Nước khoáng Quảng Ninh""",claude-ai-draft + student-reviewed
+pos02,5,B,qlsxks-l06-nhom2-p005-para800-000,2,"Đoạn 1.2 kèm heading và đủ 3 chú thích hình",claude-ai-draft + student-reviewed
+pos03,6,B,qlsxks-l06-nhom2-p006-para800-000,2,"Đoạn kết quả kế hoạch 2022 trọn vẹn",claude-ai-draft + student-reviewed
+pos04,7,B,qlsxks-l06-nhom2-p007-para800-001,2,"Câu Sứ mệnh trọn vẹn; chunk bắt đầu bằng ""Đồng thời, công ty..."" (đoạn Tầm nhìn bị tách vì quá dài) nhưng không ảnh hưởng ý tại vị trí",claude-ai-draft + student-reviewed
+pos05,8,B,qlsxks-l06-nhom2-p008-para800-001,2,"Câu đề xuất chiến lược chi phí thấp + đủ 4 đặc điểm + đủ 4 ưu điểm",claude-ai-draft + student-reviewed
+pos06,9,B,qlsxks-l06-nhom2-p009-para800-000,2,"Cả trang 9 trọn vẹn, có heading 2.3",claude-ai-draft + student-reviewed
+pos07,10,B,qlsxks-l06-nhom2-p010-para800-000,2,"Cả trang 10 trọn vẹn",claude-ai-draft + student-reviewed
+pos08,11,B,qlsxks-l06-nhom2-p011-para800-001,2,"Câu điều kiện + đủ 4 yếu tố của bố trí theo sản phẩm",claude-ai-draft + student-reviewed
+pos09,12,B,qlsxks-l06-nhom2-p012-para800-001,2,"Đoạn nhu cầu ổn định + điểm chung dây chuyền + kết luận ""hoàn toàn khả thi"" trọn vẹn",claude-ai-draft + student-reviewed
+pos10,13,B,qlsxks-l06-nhom2-p013-para800-000,2,"Câu dẫn + 4/5 nguyên tắc trọn vẹn, nguyên tắc tại vị trí đầy đủ; nguyên tắc 5 sang chunk sau; đầu chunk là phần tiếp của câu từ trang 12",claude-ai-draft + student-reviewed

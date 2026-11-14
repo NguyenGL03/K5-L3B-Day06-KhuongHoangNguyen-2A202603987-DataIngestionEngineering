@@ -1,0 +1,556 @@
+{
+  "config": {
+    "embedding": {
+      "model": "google/embeddinggemma-2",
+      "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+      "batch_size": 16
+    },
+    "vector_store": {
+      "backend": "PostgreSQL + pgvector",
+      "table": "rag_chunks",
+      "metric": "cosine (<=>)",
+      "search": "exact (no ANN index)"
+    },
+    "top_k": 3,
+    "indexes": {
+      "A": {
+        "chunker": "fixed_size",
+        "size": 500,
+        "overlap": 50
+      },
+      "B": {
+        "chunker": "by_paragraph",
+        "max_size": 800
+      }
+    },
+    "strategies": {
+      "A": {
+        "index": "A",
+        "use_filter": false,
+        "description": "Fixed 500 ký tự, overlap 50, cắt tại khoảng trắng; không lọc"
+      },
+      "B": {
+        "index": "B",
+        "use_filter": false,
+        "description": "Theo heading/đoạn, gộp đoạn tới 800 ký tự; không lọc"
+      },
+      "C": {
+        "index": "B",
+        "use_filter": true,
+        "description": "Giống B + lọc SQL theo section khi câu hỏi có filter"
+      }
+    }
+  },
+  "runs": [
+    {
+      "started_at": "2026-11-14T10:22:00+07:00",
+      "embedding": {
+        "provider": "local (Sentence Transformers)",
+        "model": "google/embeddinggemma-2",
+        "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+        "dimensions": 768,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalized": true,
+        "document_prompt": "title: none | text: ",
+        "query_prompt": "task: search result | query: ",
+        "max_seq_length": 1000000000000000019884624838656,
+        "versions": {
+          "sentence_transformers": "6.3.0",
+          "transformers": "5.23.0",
+          "torch": "2.15.0+cpu"
+        },
+        "cost_usd": 0.0
+      },
+      "vector_store": {
+        "backend": "PostgreSQL + pgvector",
+        "table": "rag_chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)",
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7"
+      },
+      "timing_seconds": {
+        "load_pdf": 1.03,
+        "model_load": 10.2,
+        "chunking": 0.002
+      },
+      "indexes": {
+        "A": {
+          "config": {
+            "chunker": "fixed_size",
+            "size": 500,
+            "overlap": 50
+          },
+          "chunks": 103,
+          "chars": {
+            "min": 52,
+            "mean": 438.9,
+            "median": 496,
+            "max": 499,
+            "total": 45209
+          },
+          "tokens": {
+            "min": 17,
+            "mean": 128.8,
+            "median": 136,
+            "max": 245,
+            "total": 13267
+          },
+          "embedded_this_run": 103,
+          "upserted": 103,
+          "deleted_obsolete": 0,
+          "embed_seconds": 35.1,
+          "store_seconds": 0.1
+        },
+        "B": {
+          "config": {
+            "chunker": "by_paragraph",
+            "max_size": 800
+          },
+          "chunks": 76,
+          "chars": {
+            "min": 49,
+            "mean": 546.9,
+            "median": 606.5,
+            "max": 853,
+            "total": 41563
+          },
+          "tokens": {
+            "min": 13,
+            "mean": 152.7,
+            "median": 162.5,
+            "max": 281,
+            "total": 11606
+          },
+          "embedded_this_run": 76,
+          "upserted": 76,
+          "deleted_obsolete": 0,
+          "embed_seconds": 32.21,
+          "store_seconds": 0.09
+        }
+      },
+      "db_counts_after": {
+        "A": {
+          "rows": 103,
+          "distinct_ids": 103,
+          "distinct_texts": 103
+        },
+        "B": {
+          "rows": 76,
+          "distinct_ids": 76,
+          "distinct_texts": 76
+        }
+      },
+      "cost_usd": 0.0
+    },
+    {
+      "started_at": "2026-11-14T10:23:26+07:00",
+      "embedding": {
+        "provider": "local (Sentence Transformers)",
+        "model": "google/embeddinggemma-2",
+        "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+        "dimensions": 768,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalized": true,
+        "document_prompt": "title: none | text: ",
+        "query_prompt": "task: search result | query: ",
+        "max_seq_length": 1000000000000000019884624838656,
+        "versions": {
+          "sentence_transformers": "6.3.0",
+          "transformers": "5.23.0",
+          "torch": "2.15.0+cpu"
+        },
+        "cost_usd": 0.0
+      },
+      "vector_store": {
+        "backend": "PostgreSQL + pgvector",
+        "table": "rag_chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)",
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7"
+      },
+      "timing_seconds": {
+        "load_pdf": 1.07,
+        "model_load": 10.31,
+        "chunking": 0.002
+      },
+      "indexes": {
+        "A": {
+          "config": {
+            "chunker": "fixed_size",
+            "size": 500,
+            "overlap": 50
+          },
+          "chunks": 103,
+          "chars": {
+            "min": 52,
+            "mean": 438.9,
+            "median": 496,
+            "max": 499,
+            "total": 45209
+          },
+          "tokens": {
+            "min": 17,
+            "mean": 128.8,
+            "median": 136,
+            "max": 245,
+            "total": 13267
+          },
+          "embedded_this_run": 0,
+          "upserted": 0,
+          "deleted_obsolete": 0,
+          "embed_seconds": 0.06,
+          "store_seconds": 0.0
+        },
+        "B": {
+          "config": {
+            "chunker": "by_paragraph",
+            "max_size": 800
+          },
+          "chunks": 76,
+          "chars": {
+            "min": 49,
+            "mean": 546.9,
+            "median": 606.5,
+            "max": 853,
+            "total": 41563
+          },
+          "tokens": {
+            "min": 13,
+            "mean": 152.7,
+            "median": 162.5,
+            "max": 281,
+            "total": 11606
+          },
+          "embedded_this_run": 0,
+          "upserted": 0,
+          "deleted_obsolete": 0,
+          "embed_seconds": 0.06,
+          "store_seconds": 0.0
+        }
+      },
+      "db_counts_after": {
+        "A": {
+          "rows": 103,
+          "distinct_ids": 103,
+          "distinct_texts": 103
+        },
+        "B": {
+          "rows": 76,
+          "distinct_ids": 76,
+          "distinct_texts": 76
+        }
+      },
+      "cost_usd": 0.0
+    },
+    {
+      "started_at": "2026-11-14T10:23:48+07:00",
+      "embedding": {
+        "provider": "local (Sentence Transformers)",
+        "model": "google/embeddinggemma-2",
+        "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+        "dimensions": 768,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalized": true,
+        "document_prompt": "title: none | text: ",
+        "query_prompt": "task: search result | query: ",
+        "max_seq_length": 1000000000000000019884624838656,
+        "versions": {
+          "sentence_transformers": "6.3.0",
+          "transformers": "5.23.0",
+          "torch": "2.15.0+cpu"
+        },
+        "cost_usd": 0.0
+      },
+      "vector_store": {
+        "backend": "PostgreSQL + pgvector",
+        "table": "rag_chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)",
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7"
+      },
+      "timing_seconds": {
+        "load_pdf": 0.85,
+        "model_load": 10.21,
+        "chunking": 0.002
+      },
+      "indexes": {
+        "A": {
+          "config": {
+            "chunker": "fixed_size",
+            "size": 500,
+            "overlap": 50
+          },
+          "chunks": 103,
+          "chars": {
+            "min": 52,
+            "mean": 438.9,
+            "median": 496,
+            "max": 499,
+            "total": 45209
+          },
+          "tokens": {
+            "min": 17,
+            "mean": 128.8,
+            "median": 136,
+            "max": 245,
+            "total": 13267
+          },
+          "embedded_this_run": 0,
+          "upserted": 0,
+          "deleted_obsolete": 1,
+          "embed_seconds": 0.05,
+          "store_seconds": 0.0
+        },
+        "B": {
+          "config": {
+            "chunker": "by_paragraph",
+            "max_size": 800
+          },
+          "chunks": 76,
+          "chars": {
+            "min": 49,
+            "mean": 546.9,
+            "median": 606.5,
+            "max": 853,
+            "total": 41563
+          },
+          "tokens": {
+            "min": 13,
+            "mean": 152.7,
+            "median": 162.5,
+            "max": 281,
+            "total": 11606
+          },
+          "embedded_this_run": 1,
+          "upserted": 1,
+          "deleted_obsolete": 0,
+          "embed_seconds": 0.31,
+          "store_seconds": 0.03
+        }
+      },
+      "db_counts_after": {
+        "A": {
+          "rows": 103,
+          "distinct_ids": 103,
+          "distinct_texts": 103
+        },
+        "B": {
+          "rows": 76,
+          "distinct_ids": 76,
+          "distinct_texts": 76
+        }
+      },
+      "cost_usd": 0.0
+    },
+    {
+      "started_at": "2026-11-14T10:52:27+07:00",
+      "embedding": {
+        "provider": "local (Sentence Transformers)",
+        "model": "google/embeddinggemma-2",
+        "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+        "dimensions": 768,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalized": true,
+        "document_prompt": "title: none | text: ",
+        "query_prompt": "task: search result | query: ",
+        "max_seq_length": 1000000000000000019884624838656,
+        "versions": {
+          "sentence_transformers": "6.3.0",
+          "transformers": "5.23.0",
+          "torch": "2.15.0+cpu"
+        },
+        "cost_usd": 0.0
+      },
+      "vector_store": {
+        "backend": "PostgreSQL + pgvector",
+        "table": "rag_chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)",
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7"
+      },
+      "timing_seconds": {
+        "load_pdf": 0.98,
+        "model_load": 14.33,
+        "chunking": 0.003
+      },
+      "indexes": {
+        "A": {
+          "config": {
+            "chunker": "fixed_size",
+            "size": 500,
+            "overlap": 50
+          },
+          "chunks": 112,
+          "chars": {
+            "min": 52,
+            "mean": 449.7,
+            "median": 496.0,
+            "max": 499,
+            "total": 50361
+          },
+          "tokens": {
+            "min": 17,
+            "mean": 142.8,
+            "median": 138.5,
+            "max": 365,
+            "total": 15996
+          },
+          "embedded_this_run": 112,
+          "upserted": 112,
+          "deleted_obsolete": 0,
+          "embed_seconds": 85.7,
+          "store_seconds": 0.16
+        },
+        "B": {
+          "config": {
+            "chunker": "by_paragraph",
+            "max_size": 800
+          },
+          "chunks": 91,
+          "chars": {
+            "min": 49,
+            "mean": 508.6,
+            "median": 558,
+            "max": 853,
+            "total": 46283
+          },
+          "tokens": {
+            "min": 13,
+            "mean": 154.8,
+            "median": 161,
+            "max": 312,
+            "total": 14091
+          },
+          "embedded_this_run": 91,
+          "upserted": 91,
+          "deleted_obsolete": 0,
+          "embed_seconds": 88.19,
+          "store_seconds": 0.19
+        }
+      },
+      "db_counts_after": {
+        "A": {
+          "rows": 112,
+          "distinct_ids": 112,
+          "distinct_texts": 112
+        },
+        "B": {
+          "rows": 91,
+          "distinct_ids": 91,
+          "distinct_texts": 91
+        }
+      },
+      "cost_usd": 0.0
+    },
+    {
+      "started_at": "2026-11-14T11:00:39+07:00",
+      "embedding": {
+        "provider": "local (Sentence Transformers)",
+        "model": "google/embeddinggemma-2",
+        "revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+        "dimensions": 768,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalized": true,
+        "document_prompt": "title: none | text: ",
+        "query_prompt": "task: search result | query: ",
+        "max_seq_length": 1000000000000000019884624838656,
+        "versions": {
+          "sentence_transformers": "6.3.0",
+          "transformers": "5.23.0",
+          "torch": "2.15.0+cpu"
+        },
+        "cost_usd": 0.0
+      },
+      "vector_store": {
+        "backend": "PostgreSQL + pgvector",
+        "table": "rag_chunks",
+        "metric": "cosine (<=>)",
+        "search": "exact (no ANN index)",
+        "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+        "pgvector": "0.8.7"
+      },
+      "timing_seconds": {
+        "load_pdf": 0.8,
+        "model_load": 9.78,
+        "chunking": 0.002
+      },
+      "indexes": {
+        "A": {
+          "config": {
+            "chunker": "fixed_size",
+            "size": 500,
+            "overlap": 50
+          },
+          "chunks": 112,
+          "chars": {
+            "min": 52,
+            "mean": 449.7,
+            "median": 496.0,
+            "max": 499,
+            "total": 50361
+          },
+          "tokens": {
+            "min": 17,
+            "mean": 142.8,
+            "median": 138.5,
+            "max": 365,
+            "total": 15996
+          },
+          "embedded_this_run": 0,
+          "upserted": 0,
+          "deleted_obsolete": 0,
+          "embed_seconds": 0.03,
+          "store_seconds": 0.0
+        },
+        "B": {
+          "config": {
+            "chunker": "by_paragraph",
+            "max_size": 800
+          },
+          "chunks": 91,
+          "chars": {
+            "min": 49,
+            "mean": 508.6,
+            "median": 558,
+            "max": 853,
+            "total": 46283
+          },
+          "tokens": {
+            "min": 13,
+            "mean": 154.8,
+            "median": 161,
+            "max": 312,
+            "total": 14091
+          },
+          "embedded_this_run": 0,
+          "upserted": 0,
+          "deleted_obsolete": 0,
+          "embed_seconds": 0.03,
+          "store_seconds": 0.0
+        }
+      },
+      "db_counts_after": {
+        "A": {
+          "rows": 112,
+          "distinct_ids": 112,
+          "distinct_texts": 112
+        },
+        "B": {
+          "rows": 91,
+          "distinct_ids": 91,
+          "distinct_texts": 91
+        }
+      },
+      "cost_usd": 0.0
+    }
+  ]
+}
